@@ -109,8 +109,8 @@ export default {
 
 <style lang="css" >
 .carousel-cover {
-  width: 70%;
-  margin: 0 15%;
+  width: 80%;
+  margin: 0 10%;
 }
 .carousel-img {
   display: flex;
