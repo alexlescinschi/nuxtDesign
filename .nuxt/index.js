@@ -13,6 +13,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 import nuxt_plugin_vlazyload_22f9a227 from 'nuxt_plugin_vlazyload_22f9a227' // Source: ./v-lazy-load.js (mode: 'all')
 import nuxt_plugin_aos_caeae0de from 'nuxt_plugin_aos_caeae0de' // Source: ../plugins/aos (mode: 'client')
+import nuxt_plugin_vueagile_b9ada17e from 'nuxt_plugin_vueagile_b9ada17e' // Source: ../plugins/vue-agile (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -157,6 +158,10 @@ async function createApp (ssrContext) {
 
   if (process.client && typeof nuxt_plugin_aos_caeae0de === 'function') {
     await nuxt_plugin_aos_caeae0de(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_vueagile_b9ada17e === 'function') {
+    await nuxt_plugin_vueagile_b9ada17e(app.context, inject)
   }
 
   // If server-side, wait for async component to be resolved first

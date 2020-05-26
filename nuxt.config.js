@@ -44,6 +44,10 @@ export default {
       src: "@/plugins/aos",
       ssr: false
     },
+    {
+      src: "@/plugins/vue-agile",
+      ssr: false
+    },
   ],
   /*
    ** Nuxt.js dev-modules
