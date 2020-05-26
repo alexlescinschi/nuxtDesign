@@ -4,6 +4,7 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _84600d22 = () => interopDefault(import('../pages/cautare-google/index.vue' /* webpackChunkName: "pages/cautare-google/index" */))
+const _122e84fd = () => interopDefault(import('../pages/shantel/preobrajenie.vue' /* webpackChunkName: "pages/shantel/preobrajenie" */))
 const _abc229f6 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -26,6 +27,10 @@ export const routerOptions = {
     path: "/cautare-google",
     component: _84600d22,
     name: "cautare-google"
+  }, {
+    path: "/shantel/preobrajenie",
+    component: _122e84fd,
+    name: "shantel-preobrajenie"
   }, {
     path: "/",
     component: _abc229f6,
