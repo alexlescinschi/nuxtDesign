@@ -9,7 +9,7 @@
                 <a class="project-4x-img" href="/ideas/1_de_la_universitate_la_pensionare.html">
                     <img src="@/static/covers/9_ideas_de_la_universitate_la_pensionare_cover.png" alt="publicitate-google-broni-usi" >
                 </a>
-                <div class="project-title"><a href="/ideas/1_de_la_universitate_la_pensionare.html">De la universitate la pensionare: folosim evenimentele de viața clienților în Google Ads</a></div>
+                <div class="project-title"><a href="/ideas/1_de_la_universitate_la_pensionare.html">De la universitate ddala pensionare: folosim evenimentele de viața clienților în Google Ads</a></div>
             </div>
             <div class="project-4x"
               data-aos="fade-down"
