@@ -6,14 +6,10 @@
               data-aos="fade-down"
               data-aos-delay="1000"
               >
-                <a class="project-4x-img" href="/ideas/1_de_la_universitate_la_pensionare.html">
+                <a class="project-4x-img" href="/projects/8_shantel/preobrajenie-2/index.html">
                     <img src="@/static/covers/9_ideas_de_la_universitate_la_pensionare_cover.png" alt="publicitate-google-broni-usi" >
                 </a>
-<<<<<<< HEAD
-                <div class="project-title"><a href="/ideas/1_de_la_universitate_la_pensionare.html">De la universitate ddala pensionare: folosim evenimentele de viața clienților în Google Ads</a></div>
-=======
-                <div class="project-title"><a href="/ideas/1_de_la_universitate_la_pensionare.html">De la universitate la pensionaree: folosim evenimentele de viața clienților în Google Ads</a></div>
->>>>>>> ed5df5715e4f50a7ebf881a36e7acd2b20aa3672
+                <div class="project-title"><a href="/projects/8_shantel/preobrajenie-2/index.html">De la universitate ddala pensionare: folosim evenimentele de viața clienților în Google Ads</a></div>
             </div>
             <div class="project-4x"
               data-aos="fade-down"
