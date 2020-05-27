@@ -4,6 +4,7 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _84600d22 = () => interopDefault(import('../pages/cautare-google/index.vue' /* webpackChunkName: "pages/cautare-google/index" */))
+const _4c7ff561 = () => interopDefault(import('../pages/form.vue' /* webpackChunkName: "pages/form" */))
 const _122e84fd = () => interopDefault(import('../pages/shantel/preobrajenie.vue' /* webpackChunkName: "pages/shantel/preobrajenie" */))
 const _abc229f6 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -27,6 +28,10 @@ export const routerOptions = {
     path: "/cautare-google",
     component: _84600d22,
     name: "cautare-google"
+  }, {
+    path: "/form",
+    component: _4c7ff561,
+    name: "form"
   }, {
     path: "/shantel/preobrajenie",
     component: _122e84fd,
