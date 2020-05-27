@@ -4,24 +4,18 @@
     <div class="project-cover-img">
         <img src="@/static/shantel/preobrajenie/shantel-preobrajenie-0.png" class="lazyload" alt="альтернативный текст">
     </div>
-
-    <div class="carousel-cover">
-        <agile :navButtons="false">
-          <div class="carousel-img"><img src="@/static/shantel/preobrajenie/shantel-preobrajenie-0.png" class="lazyload" alt="альтернативный текст"></div>
-          <div class="carousel-img"><img src="@/static/shantel/preobrajenie/shantel-preobrajenie-0.png" class="lazyload" alt="альтернативный текст"></div>
-          <div class="carousel-img"><img src="@/static/shantel/preobrajenie/shantel-preobrajenie-0.png" class="lazyload" alt="альтернативный текст"></div>
-        </agile>
+    <div data-aos="flip-down" data-aos-delay="100" class="project-cover-h1">
+        <h1>Publicitate &icirc;n&nbsp;Facebook pentru sezonul doi la&nbsp;programului de&nbsp;slăbit &bdquo;Preobrajenie&ldquo;</h1>
     </div>
-
-    <div class="project-cover-h1">
-        <h1>Publicitate în Facebook pentru sezonul doi la programului de slăbit „Preobrajenie”</h1>
-    </div>
-    <div class="project-objectiv">
+    <div data-aos="flip-up" data-aos-delay="100" class="project-objectiv">
         <div class="project-objectiv-name">
             <p>Obiectiv:&nbsp;să suplinim 15 locuri în programul de pierdere a kilogramelor în plus din fitness club Shantel.</p>
         </div>
     </div>
-    <div class="project-img">
+    <div class="project-img"
+    data-aos="fade-down"
+    data-aos-delay="1000"
+    >
         <img src="@/static/shantel/preobrajenie/shantel-preobrajenie-1.png" class="lazyload" alt="альтернативный текст">
     </div>
     <div class="project-describe">
@@ -51,7 +45,39 @@
     <div class="project-describe">
         <p>S-a stabilit bugetul publicitar, data de expirare, s-au încărcat creativele și am pornit difuzarea anunțurilor. După trei zile de testare, anunțurile care au prezentat rezultate slabe au fost oprite.
         <br>Am lăsat texte despre detalii tehnice ale antrenamentului, despre obiectivul de transformare, despre tipurile de exerciții și despre jurnalul de nutriție. </p>
-    </div>>
+    </div>
+    <div class="womans-icons-cover">
+
+      <div class="woman-icon-div "data-aos="fade-right" data-aos-delay="1600" data-aos-duration="1200">
+        <div class="woman-icon-img"
+        @mouseover="hover = true"
+        @mouseleave="hover = false">
+          <img src="@/static/shantel/preobrajenie/shantel-preobrajenie-8.png" alt="publicitate-google-broni-usi">
+        </div>
+        <div class="woman-icon-text">
+          <p>Doamne cu vârsta între 25-40 ani. Locuiesc în Bălți și caută să metode să slăbească după sarcină.</p>
+        </div>
+      </div>
+      <div class="woman-icon-div" data-aos="fade-down" data-aos-delay="1600" data-aos-duration="1200">
+        <div class="woman-icon-img">
+          <img src="@/static/shantel/preobrajenie/shantel-preobrajenie-8.png" alt="publicitate-google-broni-usi">
+        </div>
+        <div class="woman-icon-text">
+          <p>Domnișoare cu vârsta între 18-24. Au acumulat mai mult de +15-20 kg în plus și le este rușine de figura proprie. Doresc să se anterneze privat.</p>
+        </div>
+      </div>
+      <div class="woman-icon-div" data-aos="fade-left" data-aos-delay="1600" data-aos-duration="1200">
+        <div class="woman-icon-img">
+          <img src="@/static/shantel/preobrajenie/shantel-preobrajenie-8.png" alt="publicitate-google-broni-usi">
+        </div>
+        <div class="woman-icon-text">
+          <p>Sunt înteresate doamne și domnișoare cu vârsta între 18-40. Nu au kilograme în plus și își doresc să-și mențină figura</p>
+        </div>
+      </div>
+    </div>
+
+
+
     <div class="project-img">
         <img src="@/static/shantel/preobrajenie/shantel-preobrajenie-6.png" class="lazyload" alt="альтернативный текст">
     </div>
@@ -64,24 +90,12 @@
     <div class="project-describe">
         <p>Aplicațiile au venit prin mesaje și comentarii pe Facebook, prin apeluri către administrator și vizite în club.</p>
     </div>
-    <div class="project-carousel">
-        <div class="owl-carousel owl-theme">
-            <div class="project-carousel-img">
-                <img src="@/static/shantel/preobrajenie/shantel-preobrajenie-grapgic-1.png" class="lazyload" alt="альтернативный текст">
-            </div>
-            <div class="project-carousel-img">
-                <img src="@/static/shantel/preobrajenie/shantel-preobrajenie-grapgic-2.png" class="lazyload" alt="альтернативный текст">
-            </div>
-            <div class="project-carousel-img">
-                <img src="@/static/shantel/preobrajenie/shantel-preobrajenie-grapgic-3.png" class="lazyload" alt="альтернативный текст">
-            </div>
-            <div class="project-carousel-img">
-                <img src="@/static/shantel/preobrajenie/shantel-preobrajenie-grapgic-4.png" class="lazyload" alt="альтернативный текст">
-            </div>
-            <div class="project-carousel-img">
-                <img src="@/static/shantel/preobrajenie/shantel-preobrajenie-grapgic-5.png" class="lazyload" alt="альтернативный текст">
-            </div>
-        </div>
+    <div class="carousel-cover">
+        <agile :navButtons="false">
+          <div class="carousel-img"><img src="@/static/shantel/preobrajenie/shantel-preobrajenie-0.png" class="lazyload" alt="альтернативный текст"></div>
+          <div class="carousel-img"><img src="@/static/shantel/preobrajenie/shantel-preobrajenie-0.png" class="lazyload" alt="альтернативный текст"></div>
+          <div class="carousel-img"><img src="@/static/shantel/preobrajenie/shantel-preobrajenie-0.png" class="lazyload" alt="альтернативный текст"></div>
+        </agile>
     </div>
     <div class="project-describe">
         <p>Antrenorul principal ne-a trimis o descriere a programului de antrenament, metodele de slăbit, conținutul programelor de antrenament și programul alimentar pentru șase săptămâni — atât a durat programul de slăbit. </p>
@@ -104,10 +118,67 @@
 
 <script>
 export default {
+  data() {
+    return {
+      hover: false,
+    };
+  }
 }
 </script>
 
 <style lang="css" >
+
+.womans-icons-cover {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 5%;
+}
+
+.woman-icon-div {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+}
+
+.woman-icon-img {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.woman-icon-img > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.woman-icon-img-hover-child:hover {
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display:block;
+}
+
+.woman-icon-img-hover > img{
+  max-width: 100%;
+  height: auto;
+}
+
+.woman-icon-text {
+  margin: 20px 0 0 0;
+}
+
+.woman-icon-text > p {
+  font-family: Lora, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.2;
+  margin: 0;
+  color: white;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
 .carousel-cover {
   width: 80%;
   margin: 0 10%;
