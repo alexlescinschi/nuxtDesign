@@ -11,7 +11,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_vlazyload_22f9a227 from 'nuxt_plugin_vlazyload_22f9a227' // Source: ./v-lazy-load.js (mode: 'all')
+import nuxt_plugin_vlazyload_3a69de8a from 'nuxt_plugin_vlazyload_3a69de8a' // Source: ./v-lazy-load.js (mode: 'all')
 import nuxt_plugin_aos_caeae0de from 'nuxt_plugin_aos_caeae0de' // Source: ../plugins/aos (mode: 'client')
 import nuxt_plugin_vueagile_b9ada17e from 'nuxt_plugin_vueagile_b9ada17e' // Source: ../plugins/vue-agile (mode: 'client')
 
@@ -152,8 +152,8 @@ async function createApp (ssrContext) {
 
   // Plugin execution
 
-  if (typeof nuxt_plugin_vlazyload_22f9a227 === 'function') {
-    await nuxt_plugin_vlazyload_22f9a227(app.context, inject)
+  if (typeof nuxt_plugin_vlazyload_3a69de8a === 'function') {
+    await nuxt_plugin_vlazyload_3a69de8a(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_aos_caeae0de === 'function') {
