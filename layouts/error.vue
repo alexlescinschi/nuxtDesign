@@ -16,7 +16,9 @@
 
 <script>
 export default {
-
+  head: {
+      title: `Уууупс, страница пропала, а сайт не смог ее найти — 404 ошибка | ${process.env.appName}`
+  },
 }
 </script>
 
